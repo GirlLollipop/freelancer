@@ -3,6 +3,51 @@
   margin: 0;
 }
 
+button {
+  background: #18bc9c;
+  color: white;
+  font-family : Montserrat;
+  font-size   : 20px;
+  font-weight: bolder;
+  height: 70px;
+  margin-top: 50px;
+  border-radius: 10%;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #128f76;
+}
+
+form {
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+hr {
+  background: white;
+  height: 5px;
+  width: 250px;
+  margin: -40px 300px 20px 500px;
+}
+
+
+img {
+  display: inline-block;
+  margin: 10px;
+  margin-left: 30px;
+}
+
+input, label {
+  font-family : Montserrat;
+  font-size   : 20px;
+  font-weight: bolder;
+  color: #878e96;
+  width : 150px;
+  margin: 20px;
+  box-sizing:content-box;
+}
+
 
 li:hover {
   background-color: #18bc9c;
@@ -24,24 +69,38 @@ nav, #footer {
   background-color: #2c3e50;
 }
 
-hr {
-  background: white;
-  height: 5px;
-  width: 250px;
-  margin: -40px 300px 20px 500px;
-}
-
-img {
-  display: inline-block;
-  margin: 10px;
-  margin-left: 30px;
-}
-
 .item{
       display: inline-block;
       list-style: none;
       padding: 10px;
       text-align: center;
+}
+
+.item-right{
+  color: white;
+  font-family: Lato;
+  font-size: 15px;
+  padding: 50px;
+  text-align: center;
+  margin-right: 900px;
+}
+
+.item-center{
+  color: white;
+  font-family: Lato;
+  font-size: 15px;
+  margin-top: -130px;
+  text-align: center;
+}
+
+.item-left{
+  color: white;
+  display: inline-block;
+  font-family: Lato;
+  font-size: 15px;
+  margin-left: 950px;
+  margin-top: -80px;
+  text-align: center;
 }
 
 .menu{
@@ -61,20 +120,31 @@ img {
 
 .text-left{
   color: white;
-  font-family: Lato;
+  font-family: Montserrat;
   font-size: 22px;
   margin: 100px 100px 20px 20px;
 }
 
 .text-right{
   color: white;
-  font-family: Lato;
+  font-family: Montserrat;
   font-size: 22px;
   margin: -155px 100px 1px 460px;
 }
 
 #about {
   height: 500px;
+}
+
+#contact {
+  height: 700px;
+}
+
+#copy {
+  font-family: Montserrat;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
 
 #download {
@@ -84,11 +154,29 @@ img {
     display: inline;
     list-style: none;
     padding: 40px 90px;
+    margin-left: 500px;
 }
 
 #download:hover {
   background-color: white;
   color: black;
+}
+
+#final {
+  background: #1a252f;
+  height: 50px;
+}
+
+#footer {
+  height: 300px;
+}
+
+#footer .item-center i {
+ padding: 10px;
+ border-radius: 50%;
+ border: 1px solid white;
+ width: 35px;
+ height: 35px;
 }
 
 #presentation, #about {
@@ -100,7 +188,7 @@ img {
 }
 
 #picture {
-  margin: 100px 300px 15px 500px;
+  margin: 100px 300px 15px 530px;
 }
 
 #portfolio{
@@ -109,16 +197,25 @@ img {
 
 #text-about{
   color: white;
-  font-family: Montserrat;
+  font-family: Lato;
   font-size: 60px;
   font-weight: bolder;
   letter-spacing: 3px;
   margin: 2px 100px 20px 560px;
 }
 
+#text-contact {
+  color: black;
+  font-family: Lato;
+  font-size: 60px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  margin: 2px 100px 20px 450px;
+
+}
 #text-init{
   color: white;
-  font-family: Montserrat;
+  font-family: Lato;
   font-size: 80px;
   font-weight: bolder;
   letter-spacing: 3px;
@@ -137,7 +234,7 @@ img {
 #text-presentation{
   color: white;
   font-family: Lato;
-  font-size: 25px;
-  margin: 0px 100px 75px 280px;
+  font-size: 22px;
+  margin: 0px 100px 75px 285px;
   letter-spacing: 3px;
 }
